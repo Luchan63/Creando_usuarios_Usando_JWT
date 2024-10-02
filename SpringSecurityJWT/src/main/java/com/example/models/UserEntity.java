@@ -25,7 +25,7 @@ public class UserEntity
    private Long id;
     @Email
     @NotBlank
-    @Size(max = 80)
+    @Size(max = 20)
    private String email;
 
     @NotBlank
